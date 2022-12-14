@@ -1,5 +1,7 @@
-function scuberGreetingForFeet(){
-  // Write your code here!
+function scuberGreetingForFeet(dist){
+  if(dist <= 400){
+    return "This one is on me!";
+  }
 }
 
 function ternaryCheckCity(){
